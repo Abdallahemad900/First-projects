@@ -1,0 +1,868 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* bt7thom 34an mybaaa4 fe msa7at fadya 3l4mal beda */
+    box-sizing: border-box;
+    /* 3l4an ally gwa aldiv msa7to btkbr bdl 500 l 540 fa de btsbto 500
+     lw get tkbr 7gm al padding gwa aldiv hys8r bs ally gwa we m4 al background
+     we bt7l mo4klet alborder 3l4an bta5odmn msa7et al div */
+
+}
+.floatfix {
+    clear: both;
+}
+img {
+    width: 100%;
+}
+
+.container{
+    /* background-color: darkcyan; */
+    /* lw 7ateto hybaa 7gm albacground as8r lw 7teto fel grand foa2 
+      hybaa 3la kol alsaf7a */
+    width: 88%;
+    margin: auto;
+}
+
+body{
+    font-family: 'Alegreya Sans', sans-serif;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* height: 5000px; */
+    /* 3l4an tdy llmwk3 scroll */
+ 
+}
+/* swabt fe kol website */
+
+
+
+
+
+
+
+.h1{
+    
+    background-image: url(../vids&pics/H2x1_NSwitch_MortalKombat11_image1600w.jpg);
+height: 650px;
+background-size: cover;
+background-position: center;
+/* background-attachment: fixed; */
+overflow: auto;
+}
+.test1{
+width: 50%;
+text-align: center;
+margin: 150px auto;
+color: #f5f0f0;
+}
+.h1 .test1 p{
+    margin-bottom: 5px;
+ font-size: 22px;
+ line-height: 1.86em
+ 
+}
+.h1 .test1 h1{   
+     font-size: 58px;
+    margin-bottom: 18px;
+    line-height: 1.2em;
+}
+.h1 .test1 .but{
+    float:left ;
+    padding: 20px;
+    font-size: 20px;
+    background-color: sienna;
+    border: none;
+    color: aliceblue ;
+    margin: auto ;
+}
+.h1 .test1 .but1{
+    border-radius: 7px;
+    border:2px solid white;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+.grand{
+    background-color: darkcyan;
+    padding: 200px 0;      
+    /* kda 5let alswar tnzl lnos alsaf7a */
+}
+
+.grand .child {
+    width: 33.33%;
+    text-align: center;
+    float:left ;
+    padding:20px;
+   
+    /* mo4klet al float eno by4el albackground welheight fel child b 0
+       y3ny btrkn kol al items fel mwk3 3la al 4mal 7lha clear both 
+       y3ny bt7ot div fadya b3d al 3 swar wetsbha fadya  fel swaabt */
+}
+
+.grand .child h1{
+    margin: 12px  0;
+    text-align: center;
+  
+}
+
+.grand .child p{
+    text-align: center;
+    line-height: 1.8;
+}
+.grand .child img{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.home2 .test2{
+    width: 40%;
+    float: right;
+    margin: 50px;
+    }
+    .home2 img{
+        width: 40%;
+        margin: 80px;
+    }
+    .home2{
+        margin: 30px 30px;
+    
+    }
+    .home2 .test2 h2{
+        font-size: 1.5re;
+        color: #efc990  ;
+        line-height: 1.38em;
+        margin-bottom: 18px;
+    }
+    .home2 .test2 li{
+        margin-bottom: 18px;
+        font-size:17px ;
+        color: #686868;
+    }
+    .home2 .test2 p{
+        font-size: 17px;
+        margin-bottom: 18px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .home3 .test3{
+        width: 40%;
+        float: left;
+        margin: 50px;
+    }
+    .home3 img{
+        width: 40%;
+        margin: 50px;
+        float: right;
+    }
+    .home3{
+        background: #f8f8f8;
+    }
+    .home3 .test3 h2{
+        color: #e2b1b1;
+        line-height: 1.38em;
+        margin-bottom: 25px;
+    }
+    .home3 .test3 p {
+        font-size: 15px;
+        line-height: 1.86em;
+        margin-bottom:20px ;
+        color: #dab7b7;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  
+.vip {
+    overflow: hidden;
+
+    width:50%;
+    position: relative;
+    margin: 50px auto;
+  }
+ 
+  .vip .overlay {
+   width: 100%;
+   height: 100%;
+    position: absolute;
+    inset: 0;  
+    background-color: rgba(0, 0, 0, 0.433);
+    opacity: 0;
+    transition: all .5s;
+  }
+ .overlay .btnss {
+    font-size: 60px;
+  
+    text-align: center;
+   position: absolute;
+   top: 50%;
+   left: 0;
+   right: 0;
+   transform: translateY(10px);
+   transition: all .5s;
+ 
+ }
+  .vip:hover .overlay {
+        overflow: hidden;
+
+ 
+     opacity: 1;
+  }
+  .vip:hover .overlay .btnss{
+    
+   transform: translateY(0);
+ 
+   }
+
+
+
+
+   /*  learnings */
+
+
+
+   
+.item{
+    
+    background-color: hotpink;
+    width: 33.3333%;
+    
+    /* fel html ht4el al space ben kol al div 3l4an t5ly alswr laz2a fe b3d
+    wde tareaa m4 effecient bs bt7l mo4kla al space  we de mo4klet 
+    al inline block */
+
+    display: inline-block;    
+    /* msaaola 3n anha t5ly alswar bal3rd m4 baltol default */
+    text-align: center;
+}
+
+.item h1{
+
+    font-size: 16px;
+    font-weight: 400;
+    font-family: monospace;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.itemm {
+
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    /* almargin llbackground aw photo 
+       al padding llklam */
+       
+    /* margin-top: 50px;
+    margin-left: 50px;  */
+    /* margin: 50px 50px; */
+    /* foa2 wet7t lw 50 px bs ybaa kol alatgahat alstr ally t7t all direction*/
+
+    /* margin: 50px 30px 50px 30px; */
+
+    margin: 70px auto; */
+    /* fel margin & padding a5rk 70aw 80 px lwm3k4 ui ux designer */
+
+     padding: 50px 80px;
+    /* btws3 alklam 10 px mn bra we mn gwa */
+
+    /* overflow: hidden;    */
+    /* lw fe klam 5rg bra alback ground bt5feh we fe auto we scroll bs we74a  */
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    /* bt7thom 34an mybaaa4 fe msa7at fadya 3l4mal beda */
+    box-sizing: border-box;
+    /* 3l4an ally gwa aldiv msa7to btkbr bdl 500 l 540 fa de btsbto 500
+     lw get tkbr 7gm al padding gwa aldiv hys8r bs ally gwa we m4 al background
+     we bt7l mo4klet alborder 3l4an bta5odmn msa7et al div */
+
+}
+
+img {
+    width: 100%;
+}
+/* swabt fe kol website */
+
+.pro{
+    width: 500px; 
+    /* bts8r kol ally fel div */
+    height: 500px;
+    background-color: blueviolet;
+    padding: 50px;
+    margin: 50px auto;
+    border-width: 4px;
+    border-style: dotted;
+
+}
+
+
+
+
+
+
+
+
+
+
+.items{
+    transition: all 1s ;
+    width: 200px;
+    height: 200px;
+    background-color: #99999948;
+     opacity: 0.5; 
+     /* display: none;   */
+     /* bt5fe al item we m4 bt7gz almkan */
+     /* visibility: hidden;  */
+     /* bt5fy al item bs bt7gz almkan */
+
+}
+
+.items:hover{
+    /* transition-timing-function: ;
+    transition-duration: 1s;
+    transition-property: all; */
+    width: 300px;
+    background-color: blue;
+    /* lw wdet almouse  3leha bt8yr allon */
+
+}
+.items:hover p{
+    color:lawngreen ;
+}
+
+
+
+
+
+
+
+
+
+.itemo{
+    width: 200px;
+    height: 200px;
+    background-color: chartreuse;
+    transition: all 1s;
+    margin: 100px auto;
+}
+.itemo:hover{
+    /* transform: rotate(360deg); */
+    /* transform: scale(1.1); */
+    /* lma thover al div btkbr */
+     /* transform: translatey(30px);  */
+    /* transform: translatex(30px); */
+    /* transform: skew(30deg); */
+}
+
+
+
+
+
+
+
+
+
+
+.cards{
+    background-color: cornflowerblue;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    /*alchild bta3o hyt7rk gwah bs  */
+
+}
+
+
+.card2{
+    background-color: darkslategrey;
+    width: 200px;
+    height: 200px;
+     position: absolute; 
+    /* byt7rk fay mkan */
+    /* position: relative; */
+    top: 50px;
+    right: 70px;
+    
+}
+
+
+.card{
+    background-color: rgb(41, 181, 34);
+    width: 200px;
+    height: 200px;
+     position: absolute; 
+    /* byt7rk fay mkan */
+    /* position: relative; */
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+    /* 34an t5lehafoaa child2 */
+  
+}
+h1{
+    text-shadow: 0px 0px 0px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cardo{
+    background-color: chartreuse;
+    width: 200px;
+    margin: 500px auto;
+    text-align: center;
+    transition: all .5s;
+}
+.cardo .imgcard{
+    overflow: hidden;
+
+}
+.imgcard img{
+  transition: all .5s;
+}
+.card .cardbody p{
+    font-size: 14px;
+   margin-top: 5px;
+
+}
+.cardo .cardbody{
+    padding: 10px 0;
+  
+}
+.cardo:hover{
+    background-color: darkseagreen;
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.578);
+
+}
+.cardo:hover .imgcard img {
+    transform: scale(1.1);
+}
+
+
+
+h3{
+    text-align: center;
+    text-shadow: 0px 0px 20px black;
+    position: relative;
+}
+h3::after {
+    content: "";
+    width: 40%;
+    height: 6px;
+    background-color: blue;
+    top: 50%;
+    right: 0;
+    position: absolute;
+  
+}
+h3::before{
+    content: "";
+   
+    width: 20%;
+    height: 3px;
+    background-color: blue;
+    top: 90%;
+    left: 400px;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.butn{
+    margin: 80px auto;
+    width: 50%;
+    height: 100px;
+    border: 2px solid violet;
+    background-color: crimson;
+    color: aqua;
+    font-size: 40px;
+    border: crimson;
+    border-radius: 8px;
+    position: relative;
+    transition: all .5s;
+    z-index:1 ;
+}
+
+.butn::after{
+    content: "";
+    width: 0%;
+    height: 100%;
+    background-color: cadetblue;
+    position: absolute;
+    inset: 0;
+    transition: all .5s cubic-bezier(0.5, 1.6, 0.4, 0.7);
+    z-index:-1 ;
+}
+
+.butn:hover::after{
+width: 100%;
+border-radius: 8px;
+
+}
+
+
+
+
+
+
+
+.car{
+    width: 200px;
+    height: 200px;
+    background-color: darkorchid;
+    animation-name: car;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes car{
+    /* from{width: 200px;}
+    to{width: 400px;} */
+
+    0%{width: 200px;}
+
+    50%{width: 500px;
+        background-color: darkslategray;
+    }
+
+    100%{width:200px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+.cars{
+    margin: 80px auto;
+    width: 200px;
+    height: 200px;
+    animation-name: cars;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    
+    
+}
+.cars img{
+    width: 500px;
+   
+} 
+
+@keyframes cars{
+    /* from{width: 200px;}
+    to{width: 400px;} */
+
+    0%{left: 0;}
+
+    50%{
+        left: 1100px;
+       
+    }
+
+    100%{left: 0;
+        }
+   
+}
+
+
+
+
+
+
+
+
+
+
+h4::after{
+    content: "";
+    animation-name: testname;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes testname{
+    0%{content: "E";}
+    20%{content: "Em";}
+    40%{content: "Ema";}
+    60%{content: "Emad";}
+
+    80%{content: "Ema";}
+    90%{content: "Em";}
+    100%{content: "E";}
+}
+
+
+
+
+
+
+
+
+
+.flex{
+    background-color: plum;
+   
+    height: 400px;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; 
+    /* flex-wrap:wrap ; */
+    justify-content:center ; 
+    /* justify-content: space-around; */
+    /* justify-content:space-between ; */
+    /* justify-content: space-evenly ; */
+    align-items: center;
+    /* bdl mt3ml margin top we bot we 7000px  
+    
+     btm4y m3aha  flex column
+     
+      flex flow bt4t8l 3la flex direction we wrap*/
+
+}
+
+
+.ch{
+    /* width: 30%; wrap */
+    width: 20%;
+    height: 100px;
+    background-color: slateblue;
+}
+.ch1{
+background-color: brown;
+/* order: 4; */
+}
+.ch2{
+background-color: teal;
+}
+.ch3{
+    background-color: darkblue;
+
+}
+.ch4{
+    background-color: olive;
+
+}
+
+
+
+
+
+
+
+
+.heroo{
+    background-image: url(../vids&pics/BFV_CampaignArt_StandardBoxArt_16x9_wLogo.jpg);
+    height: 100vh ;
+    background-size: cover;
+background-position: center;
+/* background-attachment: fixed; */
+overflow: auto;
+display: flex;
+flex-wrap:wrap ;
+justify-content: center;
+ align-items: center;
+ color: #f5f0f0; 
+ position: relative;
+ z-index: 1;
+}
+.heroo::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+    background-color: rgba(29, 168, 133, 0.518);
+    z-index: -1 ;
+
+}
+.heroo .textheroo{
+/* background-color: brown; */
+text-align: center;
+width: 70%;
+
+}
+
+.heroo .textheroo h1{
+    font-size: 70px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about{
+    padding: 70px;
+    background-color: rgb(236, 197, 182);
+}
+
+.about .slice{
+  
+    text-align: center;
+    border: solid black 1px;
+
+}
+.about .row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row ;
+    
+}.about .row .col{
+    width: 33.33%;
+    padding: 0 15px;
+}
+.slice{
+    background-color: cornflowerblue;
+    transition: all .5s;
+}
+.slice .imgo{
+    overflow: hidden;
+}
+.imgo img{
+    transition: all .5s;
+}
+.slice:hover{
+    background-color: darkseagreen;
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.578);
+
+}
+.slice:hover .imgo img {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+i{
+    overflow: hidden;
+    background-color: darkblue;
+    color: crimson;
+        
+}
+
+
+.crudSys{
+    background-color: #dab7b7;
+    
+}
+
+
+

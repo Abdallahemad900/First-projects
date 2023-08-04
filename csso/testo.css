@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .container {
+    width: 85%;
+    margin: 0 auto;
+  }
+  
+  img {
+    width: 100%;
+  }
+
+  header{
+    background-color: rgba(0, 0, 255, 0.633);
+    padding: 15px 0;
+  }
+  .navbar-brand{
+    width: 100px;
+    right: 100px;
+  }
+
+
+  #to-top{
+    width: 20px;
+    height: 20px;
+    
+  }
+  
+
