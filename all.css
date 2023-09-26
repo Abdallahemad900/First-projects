@@ -525,7 +525,7 @@ h1{
 
 
 
-h3{
+.h3{
     text-align: center;
     text-shadow: 0px 0px 20px black;
     position: relative;
@@ -533,11 +533,12 @@ h3{
 h3::after {
     content: "";
     width: 40%;
-    height: 6px;
+    height: 60px;
     background-color: blue;
-    top: 50%;
-    right: 0;
+   
     position: absolute;
+    left: 50%;
+    transform: translate(-50%);
   
 }
 h3::before{
@@ -547,8 +548,9 @@ h3::before{
     height: 3px;
     background-color: blue;
     top: 90%;
-    left: 400px;
     position: absolute;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 
